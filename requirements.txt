@@ -1,0 +1,8 @@
+# Python packages (Python 3.10 or newer).
+# The runners, validation scripts and PBS job scripts use only the Python standard library;
+# matplotlib is needed only by the analysis and plotting scripts.
+matplotlib>=3.7
+
+# Non-Python requirements (see README.md):
+#   C++17 compiler (GCC 12.2.0 used), MPI with MPI_THREAD_FUNNELED (Open MPI 4.1.5 used),
+#   NVIDIA HPC SDK 24.7 with CUDA 12.3 and an NVIDIA GPU for the OpenMP target build.
